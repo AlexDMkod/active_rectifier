@@ -1,4 +1,7 @@
 
+% setenv('MW_MINGW64_LOC','C:\TDM-GCC-64');
+% mex -setup c
+
 R = 0.0001;
 L = 0.01;
 
