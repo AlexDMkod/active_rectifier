@@ -1,4 +1,5 @@
 
+% uncoment for first launch
 % setenv('MW_MINGW64_LOC','C:\TDM-GCC-64');
 % mex -setup c
 
@@ -17,3 +18,5 @@ freq = 50*2*pi;
 shift_A = 0;
 shift_B = 2*pi/3;
 shift_C = -2*pi/3;
+
+disp('params load');
